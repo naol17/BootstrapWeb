@@ -62,10 +62,15 @@ for try**/
 #navclss {
     background-color: #202057;
     color: yellow;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times;
     font-size: 40px;
     text-align: center;
     margin: 14px 20px;
+}
+
+#lists {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 
@@ -157,6 +162,13 @@ hr {
 
 #txtarea {
     padding-top: 30px;
+    color: #000;
+}
+
+#txtarea>li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: #000;
 }
 
 h1,
