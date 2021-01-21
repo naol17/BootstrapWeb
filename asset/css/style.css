@@ -1,15 +1,32 @@
 body {
-    background: #e6e6ff;
+    background: #eee;
 }
 
 nav {
     text-align: center;
-    background-color: gray;
+    background-color: rgb(2, 16, 53);
 }
 
+nav>ul>li>a:hover {
+    color: yellow;
+}
 
-/** 
-for try**/
+nav>ul>li:hover {
+    background-color: #202057;
+    color: yellow;
+}
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-x: auto;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 20px;
+}
 
 #scimg {
     width: 15em;
@@ -20,7 +37,6 @@ for try**/
     text-orientation: sideways-left;
     text-emphasis-position: center;
     text-align-last: center;
-    text-decoration-color: greenyellow;
     align-content: center;
     text-align: center;
     align-items: center;
@@ -45,7 +61,7 @@ for try**/
     float: right;
     margin-right: 8px;
     padding: 14px;
-    color: #ff0000;
+    color: white;
     text-align: left;
 }
 
@@ -56,7 +72,8 @@ for try**/
 }
 
 #colnav {
-    background-color: gray;
+    text-align: center;
+    background-color: #2d2654;
 }
 
 #navclss {
@@ -64,7 +81,7 @@ for try**/
     color: yellow;
     font-family: 'Times New Roman', Times;
     font-size: 40px;
-    text-align: center;
+    align-items: center;
     margin: 14px 20px;
 }
 
@@ -73,48 +90,13 @@ for try**/
     font-size: 20px;
 }
 
-
-/** to this*/
-
-nav>ul>li {
-    font-family: 'Times New Roman', Times, serif;
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-    text-align: center;
-}
-
-.navbar {
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: red;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav>ul>li>a {
-    text-decoration: none;
-    padding: 20px;
-    color: red;
+#folow {
+    border: rgb(87, 83, 83) solid 0.5px;
+    border-style: dotted 10px;
 }
 
 #mm1 {
     width: 40rem;
-}
-
-nav>ul>li:hover {
-    background-color: #202057;
-    color: yellow;
-}
-
-nav>ul>li>a:hover {
-    color: yellow;
 }
 
 #im {
@@ -123,30 +105,18 @@ nav>ul>li>a:hover {
     float: right;
 }
 
-div.scroll {
-    margin: 4px, 4px;
-    padding: 4px;
-    width: 100%;
-    height: 300px;
-    overflow-x: hidden;
-    overflow-x: auto;
-    text-align: justify;
-    padding: 10px;
-    margin-top: 20px;
-}
-
 .active {
     background: #000;
 }
 
 #maindiv {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 #name {
     text-align: center;
-    color: blue;
+    color: #2d2654;
     font-size: 80px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
